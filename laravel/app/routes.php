@@ -17,5 +17,5 @@ Route::get('/', function()
 });
 
 Route::get('/test', function(){
-  echo Chonla\Calculator\Calculator::add(4, 5);
+  echo Calculator::add(4, 5);
 });
